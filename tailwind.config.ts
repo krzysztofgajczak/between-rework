@@ -1,4 +1,5 @@
 import type { Config } from 'tailwindcss'
+import defaultTheme from 'tailwindcss/defaultTheme'
 
 const config: Config = {
   content: [
@@ -8,6 +9,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'sans': ['Proxima Nova', ...defaultTheme.fontFamily.sans],
+      },
+      colors: {
+        primary: '#81c141',
+        secondary: '#5ab8db',
+        complementary: '#e24b4b'
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
