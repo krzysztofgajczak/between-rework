@@ -39,12 +39,12 @@ const data = `<div>MENU CZWARTEK 🙂</div>
 const Menu = () => {
     return (
         <>
-            <section className="section" id="menu-section">
+            <section className="section bg-slate-100" id="menu-section">
                 <div className="items-center justify-start bg-complementary mx-auto flex">
                     <h2 className="text-4xl p-10 font-semibold text-white">Dzisiaj w Between</h2>
                 </div>
 
-                <div className="items-center justify-center max-w-2xl mx-7 flex md:mx-auto bg-white border-2 border-secondary rounded-md shadow-md p-4 my-10">
+                <div className="items-center justify-center max-w-2xl mx-7 flex md:mx-auto bg-slate-200 border-2 border-secondary rounded-md shadow-md p-4 my-10">
                     <div dangerouslySetInnerHTML={{ __html: data }} />
                 </div>
             </section>

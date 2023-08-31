@@ -40,8 +40,7 @@ const images = [
 
 const GallerySection = () => {
     return (
-        <>
-        {/* AIzaSyCeLmx-LyBAVG3lTVA_offMrJg59YwZiag */}
+        <section className="bg-slate-100">
             <div className="h-auto pt-10">
                 <div className="">
                     <h1 className="text-4xl text-white p-10 font-semibold bg-primary">Galeria</h1>
@@ -59,7 +58,7 @@ const GallerySection = () => {
                     })}
                 </SlideshowLightbox>
             </div>
-        </>
+        </section>
     );
 }
 

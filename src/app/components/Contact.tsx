@@ -6,7 +6,7 @@ const Contact = () => {
             <div className="bg-primary mt-10 section" id="contact-section">
                 <h1 className="text-4xl p-10 font-semibold text-white">Kontakt</h1>
             </div>
-            <section className="grid grid-cols-1  mt-16 bg-white min-h-screen">
+            <section className="grid grid-cols-1  mt-16 bg-slate-100 min-h-screen">
                 <div className="">
                     <h1 className="text-3xl border-b-2 mb-5 pb-16 border-primary text-center font-semibold">Znajdziesz nas tutaj</h1>
                     <div className="">
