@@ -41,9 +41,16 @@ const images = [
 const GallerySection = () => {
     return (
         <>
-            <h1 className="text-4xl text-secondary">Galeria</h1>
-            <p>Nasze jedzenie świetnie prezentuje się w galerii, ale polecamy spróbować go w naszym bistro :)</p>
-            <div className='my-8 flex justify-center items-center'>
+        {/* AIzaSyCeLmx-LyBAVG3lTVA_offMrJg59YwZiag */}
+            <div className="h-auto pt-10">
+                <div className="">
+                    <h1 className="text-4xl text-white p-10 font-semibold bg-primary">Galeria</h1>
+                </div>
+                <div className="text-center mt-10">
+                    <h1 className="text-2xl border-y-2 border-primary py-10">Jedzenie świetnie prezentuje się w galerii, ale polecamy spróbować go w naszym bistro :)</h1>
+                </div>
+            </div>
+            <div className='py-10 flex justify-center items-center'>
                 <SlideshowLightbox className='container grid grid-cols-2 gap-2 mx-auto'>
                     {images.map((image, index) => {
                         return (

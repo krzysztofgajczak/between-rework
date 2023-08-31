@@ -9,3 +9,7 @@
 .duration-300 {
   transition-duration: 300ms;
 }
+
+.section {
+  scroll-margin-top: 8rem;
+}

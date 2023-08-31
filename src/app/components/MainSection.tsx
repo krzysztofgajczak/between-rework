@@ -2,9 +2,9 @@ import Link from "next/link";
 
 const MainSection = () => {
   return (
-    <section className="font-mono top-0 min-h-screen flex flex-col justify-center items-center bg-[#040219] bg-opacity-50 bg-[url('/background.jpg')] bg-center bg-fixed bg-cover bg-no-repeat bg-blend-darken" id="main-section">
+    <section className="font-montserrat top-0 min-h-screen flex flex-col justify-center items-center bg-[#040219] bg-opacity-40 bg-[url('/background.jpg')] bg-center bg-fixed bg-cover bg-no-repeat bg-blend-darken" id="main-section">
       <div className="title text-8xl text-primary">
-        <h1 className=" border-spacing-2 border-b-4 border-secondary">between</h1>
+        <h1 className=" border-spacing-2 border-b-4 border-secondary tracking-wide">between</h1>
       </div>
       <h2 className="lg:text-4xl text-3xl text-white p-6 mt-4">
       BISTRO | CATERING | DOWOZY

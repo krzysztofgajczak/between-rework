@@ -1,6 +1,7 @@
 import type { Config } from 'tailwindcss'
 import defaultTheme from 'tailwindcss/defaultTheme'
 
+
 const config: Config = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -11,6 +12,7 @@ const config: Config = {
     extend: {
       fontFamily: {
         'sans': ['Proxima Nova', ...defaultTheme.fontFamily.sans],
+        'montserrat': ['Montserrat'],
       },
       colors: {
         primary: '#81c141',

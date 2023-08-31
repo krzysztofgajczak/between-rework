@@ -31,7 +31,7 @@ const Navbar = () => {
     }, []);
 
     return (
-        <header className={`navbar-container flex justify-between items-center fixed top-0 w-full bg-${navbarBg} p-4 z-10 transition-all duration-700`}>
+        <header className={`navbar-container flex justify-between items-center fixed top-0 w-full bg-${navbarBg} bg-opacity-90 p-4 z-10 transition-all duration-700`}>
             <Image src="/logo.png" alt="logo" width={100} height={50} />
 
             {/* Mobile Menu */}
@@ -55,18 +55,18 @@ const Navbar = () => {
                     </svg>
                 </button>
                 {menuOpen && (
-                    <ul className={`li-container px-2  text-white divide-x ${dividerColor === 'complementary' ? 'divide-complementary' : 'divide-primary'} flex`}>
+                    <ul className={`li-container px-2 text-white grid grid-cols-1 divide-y ${dividerColor === 'complementary' ? 'divide-complementary' : 'divide-primary '}`}>
                         <Link href="#main-section">
-                            <li className="cursor-pointer hover:underline text-lg px-3">GŁÓWNA</li>
+                            <li className="cursor-pointer hover:underline text-lg px-3 py-2">GŁÓWNA</li>
                         </Link>
                         <Link href="#menu-section">
-                            <li className="cursor-pointer hover:underline text-lg px-3">MENU</li>
+                            <li className="cursor-pointer hover:underline text-lg px-3 py-2">MENU</li>
                         </Link>
                         <Link href="#offer-section">
-                            <li className="cursor-pointer hover:underline text-lg px-3">OFERTA</li>
+                            <li className="cursor-pointer hover:underline text-lg px-3 py-2">OFERTA</li>
                         </Link>
                         <Link href="#contact-section">
-                            <li className="cursor-pointer hover:underline text-lg px-3">KONTAKT</li>
+                            <li className="cursor-pointer hover:underline text-lg px-3 py-2">KONTAKT</li>
                         </Link>
                     </ul>
                 )}
